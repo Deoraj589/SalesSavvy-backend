@@ -21,8 +21,8 @@ import java.util.Map;
 public class ProductController {
 
     @Autowired
-    private ProductService productService;
-
+    private ProductService productService;    
+    
     @GetMapping
     public ResponseEntity<Map<String, Object>> getProducts(
             @RequestParam(required = false) String category,
