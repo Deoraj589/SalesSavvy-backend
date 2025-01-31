@@ -15,6 +15,7 @@ import com.example.demo.adminService.AdminProductService;
 import com.example.demo.entity.Product;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:5174", allowCredentials = "true")
 @RequestMapping("/admin/products")
 public class AdminProductController {
 	
